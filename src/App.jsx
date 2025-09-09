@@ -1,9 +1,15 @@
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+
 function App() {
   return (
-    <div className="text-center mt-10">
-      <h1 className="text-3xl font-bold">🚀 Hero + Navbar Demo Running!</h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+    </>
   );
 }
 
 export default App;
+
