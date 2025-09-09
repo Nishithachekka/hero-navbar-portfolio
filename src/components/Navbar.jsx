@@ -1,17 +1,18 @@
-function Navbar() {
+import React from 'react';
+
+const Navbar = () => {
   return (
-    <nav className="bg-gray-800 text-white p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="text-lg font-bold">My Logo</div>
-        <ul className="flex space-x-4">
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Contact</li>
-        </ul>
-      </div>
+    <nav className="bg-black text-white p-4 flex justify-between items-center">
+      <div className="font-bold text-lg">My Logo</div>
+      <ul className="flex space-x-6">
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+      </ul>
     </nav>
   );
-}
+};
 
-export default Navbar;
+export default Navbar; // ✅ only one default export
+
